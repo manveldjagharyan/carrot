@@ -103,14 +103,17 @@ body {
                 background-color: orange;
                 border-radius: 35px;
                 color: white;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
                 transition: .4s;
             }
 
             .button:hover{
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
                 box-shadow: 0 0 20px rgba(255, 255, 255, 0.499);
             }
 
             .button:active{
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
                 transform: scale(1.2);
             }
         }
